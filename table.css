@@ -1,0 +1,52 @@
+table{
+    width: 400px;
+    border-collapse: collapse;
+    margin: 20px auto;  
+}
+th, caption{
+    text-align: left;
+}
+table, th, td{
+    border: solid 1px #ddd;
+}
+td{
+    padding: 8px;
+}
+th{
+    background-color: #f2f2f2;
+}
+tr:nth-child(even){
+    background-color: #f9f9f9;
+}
+tr:hover{
+    background-color: #f1f1f1;
+}
+caption{
+    caption-side: bottom;
+    font-style: italic;
+    color: #555;
+    padding: 8px;
+}
+th{
+    padding: 12px;
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+}
+td{
+    text-align: center;
+    vertical-align: middle;
+}
+tfoot{
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+tfoot td{
+    text-align: right;
+}
+tfoot th{   
+    text-align: left;
+}
+tfoot th, tfoot td{
+    padding: 8px;
+}               

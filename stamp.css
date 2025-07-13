@@ -1,0 +1,89 @@
+.stamp {
+            display: inline-block;
+            padding: 20px 40px;
+            border: 6px solid #1976d2;
+            color: #1976d2;
+            font-family: 'Arial Black', Arial, sans-serif;
+            font-size: 2.5 rem;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            font-weight: bold;
+            background: #fff;
+            transform: rotate(-5deg);
+            box-shadow: 2px 2px 8px rgba(177, 34, 34, 0.08);
+            
+            filter: contrast(1.2) grayscale(0.2);
+        }
+        .course1{
+            display: flex;
+            padding: 20px 40px;
+            color:rgba(199, 134, 134, 0.08);
+            box-shadow: 20px 20px 60px rgba(177, 34, 34, 0.08);
+        }
+        .course1:hover {
+            background-color: #1976d2;
+            color: rgb(210, 79, 79);
+            cursor: pointer;
+        }
+        todo-container {
+            margin-top: 40px;
+            max-width: 400px;
+            background: #f5f5f5;
+            padding: 24px 20px 20px 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(25, 118, 210, 0.08);
+        }
+        .todo-container h2 {
+            color: #1976d2;
+            margin-bottom: 16px;
+            font-size: 1.3rem;
+            letter-spacing: 1px;
+        }
+        #todo-input {
+            padding: 8px;
+            width: 70%;
+            border: 1px solid #1976d2;
+            border-radius: 4px;
+            margin-right: 8px;
+            font-size: 1rem;
+        }
+        #add-todo {
+            padding: 8px 14px;
+            background: #1976d2;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        #add-todo:hover {
+            background: #1251a3;
+        }
+        #todo-list {
+            list-style: none;
+            padding: 0;
+            margin-top: 18px;
+        }
+        #todo-list li {
+            background: #fff;
+            margin-bottom: 10px;
+            padding: 10px 12px;
+            border-radius: 4px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-left: 4px solid #1976d2;
+            font-size: 1rem;
+        }
+        .remove-btn {
+            background: #e53935;
+            color: #fff;
+            border: none;
+            border-radius: 3px;
+            padding: 4px 10px;
+            cursor: pointer;
+            font-size: 0.9rem;
+        }
+        .remove-btn:hover {
+            background: #b71c1c;
+        }
